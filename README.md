@@ -21,7 +21,7 @@ The Incident Response write-up can be read [here]().
 
 ## Executive Summary
 
-Employee `John.Doe` was recorded to have downloaded and silently install TOR browser on their workstation. They proceeded to launch the browser, establishing connections with the TOR network using the company network. Once completed, the user proceeded to delete any associated files from their computer and recycle bin. Based on the sequence of these activities, it is confirmed the user 
+Employee `John.Doe` was recorded to have downloaded and silently install the TOR browser on their workstation. They proceeded to launch the browser, establishing connections with the TOR network using the company network. Once they completed browsing the dark web, the user proceeded to delete any associated files from their computer and recycle bin. Based on the sequence of these activities, it is confirmed the user violated the company's usage policy. 
 <img width="793" height="463" alt="Screenshot 2025-11-16 at 9 00 12 PM" src="https://github.com/user-attachments/assets/43c22924-5bb7-44f3-8fb8-bc7564a5bbd9" />
 
 
