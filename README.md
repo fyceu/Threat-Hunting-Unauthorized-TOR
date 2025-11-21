@@ -4,7 +4,7 @@ The security team was alerted by HR that some employees were considering using T
 
 The full incident walkthrough can be found [here](). 
 <br>
-The Incident Response write-up can be read [here](). 
+The Investigation Report can be read [here](). 
 
 ## Tech Stack
 <img width="50" height="50" alt="azure" src="https://github.com/user-attachments/assets/fd2866b6-d2fa-4e61-bf55-0b20d63fca5e" />
@@ -21,8 +21,17 @@ The Incident Response write-up can be read [here]().
 
 ## Executive Summary
 
-Employee `John.Doe` was recorded to have downloaded and silently install the TOR browser on their workstation. They proceeded to launch the browser, establishing connections with the TOR network using the company network. Once they completed browsing the dark web, the user proceeded to delete any associated files from their computer and recycle bin. Based on the sequence of these activities, it is confirmed the user violated the company's usage policy. 
-<img width="793" height="463" alt="Screenshot 2025-11-16 at 9 00 12 PM" src="https://github.com/user-attachments/assets/43c22924-5bb7-44f3-8fb8-bc7564a5bbd9" />
+During this threat hunt, endpoint logs confirmed that user `john.doe` downloaded and silently installed TOR on a company workstation. The user then launched the browser establishing outbound connections to the TOR network while on the company network. 
 
+Shortly after this activity, TOR-related files were deleted from the workstation and recycling bin. Based on the collected events, this activity is assessed as unauthorized TOR usage in violation of the company’s acceptable-use and security policies.
+
+The Investigation Report can be read [here](). 
+<p align="center">
+  <img width="793" height="463" alt="Screenshot 2025-11-16 at 9 00 12 PM" src="https://github.com/user-attachments/assets/43c22924-5bb7-44f3-8fb8-bc7564a5bbd9" />
+</p> 
 
 ## Recommendations
+
+- Application Whitelist
+- Network Detection Controls
+- User & HR Handling
