@@ -33,7 +33,7 @@ The Investigation Report can be read [here]().
 ## Recommendations
 
 **Incident Reponse**
-- Workstation is isolated from the network immediately and relevant logs and artefacts are collected
+- Workstation is isolated immediately and relevant logs and artefacts are collected
 - Conduct antivirus/EDR scan to check for additional tools, scripts, or malware that may have been installed
 - Search network for signs of susipcious or unusual activity from this host `fasi-threat-hun`
 
