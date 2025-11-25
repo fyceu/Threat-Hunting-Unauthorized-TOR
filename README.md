@@ -33,9 +33,9 @@ The Investigation Report can be read [here]().
 ## Recommendations
 
 **Incident Reponse**
-- Workstation is isolated immediately and relevant logs and artefacts are collected
+- Immediately isolate the affected workstation and collect any relevant logs and artefacts
 - Conduct antivirus/EDR scan to check for additional tools, scripts, or malware that may have been installed
-- Search network for signs of susipcious or unusual activity from this host `fasi-threat-hun`
+- Search network for signs of susipcious or unusual activity from the host
 
 **Network Controls**
 - Block access to known TOR download domains and their mirror sites at the proxy or firewall 
@@ -43,11 +43,11 @@ The Investigation Report can be read [here]().
   - outbound connections to the following ports: `9001`, `9030`, `9040`, `9050`, `9051`, and `9150`
 
 **Endpoint Controls**
-- Prevent users from installing software outside of approved applications catalog
-- Implement EDR policies to detect and block known TOR components 
+- Prevent regular users from installing software outside of approved applications catalog
+- Implement EDR or application control policies to detect and block known TOR components 
   - Block known TOR binaries and installers (e.g. `tor.exe` and `tor-browser-windows-x86_64-portable`)
   - Monitor for TOR browser folders under user profiles (e.g., `C:\Users\<user>\Desktop\Tor Browser\...`)
  
 **Security Awareness**
-- Remind employees of acceptable use and security policies that prevent the usage of unauthorized applications on company workstations.
-- Encourage employees to reach out to IT regarding additions to approved software list
+- Remind employees of acceptable use and security policies that prohibit unauthorized applications on company workstations.
+- Encourage employees to reach out to IT/Security regarding additions to approved software list
