@@ -45,7 +45,7 @@ The Investigation Report can be read [here]().
 **Endpoint Controls**
 - Prevent users from installing software outside of approved applications catalog
 - Implement EDR policies to detect and block known TOR components 
-  - Block known TOR binaries and installers (e.g. `tor.exe`, `tor)
+  - Block known TOR binaries and installers (e.g. `tor.exe` and `tor-browser-windows-x86_64-portable`)
   - Monitor for TOR browser folders under user profiles (e.g., `C:\Users\<user>\Desktop\Tor Browser\...`)
  
 **Security Awareness**
