@@ -2,9 +2,9 @@
 ## Background and Overview
 The security team was alerted by HR that some employees were considering using TOR to bypass company web filters and access restricted sites during work hours. Because corporate policy prohibits third party browsers such as TOR due to the risk of bypassing web filters, hiding user activity, and exfiltrating company data, leadership views this as a potential security and compliance issue. The security team is tasked with quietly confirming whether any employee has installed or used TOR on corporate workstations.
 
-The full incident walkthrough can be found [here](). 
+The full incident walkthrough can be found [here](https://github.com/fyceu/Threat-Hunting-Unauthorized-TOR/blob/main/Threat-Hunt.md). 
 <br>
-The Investigation Report can be read [here](). 
+The Investigation Report can be read [here](https://github.com/fyceu/Threat-Hunting-Unauthorized-TOR/blob/main/Investigation%20Report.pdf). 
 
 ## Tech Stack
 <img width="50" height="50" alt="azure" src="https://github.com/user-attachments/assets/fd2866b6-d2fa-4e61-bf55-0b20d63fca5e" />
@@ -25,7 +25,7 @@ During this threat hunt, endpoint logs confirmed that user `john.doe` downloaded
 
 Shortly after this activity, TOR-related files were deleted from the workstation and recycling bin. Based on the collected events, this activity is assessed as unauthorized TOR usage in violation of the company’s acceptable-use and security policies.
 
-The Investigation Report can be read [here](). 
+The Investigation Report can be read [here](https://github.com/fyceu/Threat-Hunting-Unauthorized-TOR/blob/main/Investigation%20Report.pdf). 
 <p align="center">
   <img width="793" height="463" alt="Screenshot 2025-11-16 at 9 00 12 PM" src="https://github.com/user-attachments/assets/43c22924-5bb7-44f3-8fb8-bc7564a5bbd9" />
 </p> 
